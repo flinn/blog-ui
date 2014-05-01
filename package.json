@@ -2,7 +2,7 @@
   "name": "blog-ui",
   "version": "0.1.0",
   "description": "The User Interface for Flinn's Blog",
-  "main": "index.js",
+  "main": "src/app.js",
   "scripts": {
     "test": "test"
   },
@@ -17,5 +17,9 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/flinn/blog-ui/issues"
+  },
+  "devDependencies": {
+    "express": "~4.1.1",
+    "nodemon": "~1.0.17"
   }
 }
