@@ -1,0 +1,21 @@
+{
+  "name": "blog-ui",
+  "version": "0.1.0",
+  "description": "The User Interface for Flinn's Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/flinn/blog-ui.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Flinn",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/flinn/blog-ui/issues"
+  }
+}
