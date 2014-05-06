@@ -6,7 +6,7 @@ var express = require('express'),
 	fs = require('fs'),
 	path = require('path'),
 	swig = require('swig'),
-	controller = require('./controllers/_controllers');
+	controllers = require('./controllers/_controllers');
 
 //initialize express application
 var app = express();
@@ -18,11 +18,11 @@ swig.setDefaults({ cache: false });
 app.use(express.static(path.join(__dirname, 'static')));
 
 //bind default route
-app.get('/', controller.about.index);
-app.get('/about', controller.about.index);
-app.get('/blog', controller.blog.index);
-app.get('/contact', controller.contact.index);
-app.get('/icons', controller.static.icons);
+app.get('/', controllers.about.index);
+app.get('/about', controllers.about.index);
+app.get('/blog', controllers.blog.index);
+app.get('/contact', controllers.contact.index);
+app.get('/icons', controllers.static.icons);
 
 //launch server
 console.log("Running whoisflinn.com locally.")

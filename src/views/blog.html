@@ -1,64 +1,49 @@
 {% extends 'layout.html' %}
 
-{% block title %}{% parent %} > About{% endblock %}
+{% block title %}{% parent %} > Blog{% endblock %}
 
 {% block head %}
-  {% parent %}
+    {% parent %}  
+{% endblock %}
+ 
+{% block header %}
+    {% parent %}
 {% endblock %}
 
-{% block header %}
-	<div class="header">
-		<ul class="nav nav-pills pull-right">
-			<li class="active"><a href="/about.html">About</a></li>
-			<li><a href="/blog.html">Blog</a></li>
-			<li><a href="/icons.html">Contact</a></li>
-		</ul>
-		<h3 class="text-muted">Matt Flinn</h3>
-	</div>
-{% endblock %}
+{% block nav %}'blog'{% endblock %}
 
 {% block content %}
 	<div class="jumbotron">
-        <h1 style="text-align: left">/$  <span>whois flinn</span></h1>
-        <div class="text-right"><a class="btn btn-lg btn-success" href="#" role="button">Learn More</a></div>
+        <h1 style="text-align: left">> <span>Main Post</span></h1>
+        <div class="text-right"><a class="btn btn-lg btn-success" href="#" role="button">Read More</a></div>
     </div>
     <div class="row marketing">
     	<div class="col-lg-12">
-    		<p class="lead">Registrant Name: Matthew Flinn</p>
-        	<p class="lead">Registrant Country: United States</p>
-        	<p class="lead">Admin Organization: The Motley Fool</p>
+    		<p class="lead">Snippet of content from the main blog post. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.  Cras mattis consectetur purus sit amet fermentum.</p>
         </div>
     </div>
     <div class="row marketing">
         <div class="col-lg-6">
-          	<h4>Subheading</h4>
+          	<h3>Blog #4</h3>
           	<p>Donec id elit non mi porta gravida at eget metus. Maecenas 	faucibus mollis interdum.</p>
 	
-          	<h4>Subheading</h4>
+          	<h3>Blog #2</h3>
           	<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 	Cras mattis consectetur purus sit amet fermentum.</p>
-	
-          	<h4>Subheading</h4>
-          	<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
         <div class="col-lg-6">
-          	<h4>Subheading</h4>
+          	<h3>Blog #3</h3>
           	<p>Donec id elit non mi porta gravida at eget metus. Maecenas 	faucibus mollis interdum.</p>
 	
-          	<h4>Subheading</h4>
+          	<h3>Blog #1</h3>
           	<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. 	Cras mattis consectetur purus sit amet fermentum.</p>
-	
-          	<h4>Subheading</h4>
-          	<p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
         </div>
     </div>    
 {% endblock %}
 
 {% block footer %}
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<!-- Include all compiled plugins (below), or include individual files as needed -->
-	<script src="js/bootstrap.min.js"></script>
-	<div class="footer">
-        <p>© Company 2014</p>
-    </div>
+  {% parent %}  
+{% endblock %}
+
+{% block footer_scripts %}
+  {% parent %}  
 {% endblock %}

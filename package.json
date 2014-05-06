@@ -21,6 +21,7 @@
     "url": "https://github.com/flinn/blog-ui/issues"
   },
   "devDependencies": {
+    "bower": "^1.3.3",
     "express": "~4.1.1",
     "swig": "~1.3.2"
   }
