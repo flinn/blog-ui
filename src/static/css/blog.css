@@ -6,16 +6,29 @@ h1 .teal {
     color: #57D1EA !important;
 }
 
+.teal {
+    color: #57D1EA !important;
+}
+
 h4 {
     color: #DD681B !important;
+}
+
+h5 {
+	color: White !important;
 }
 
 .header h3 {
 	color: #57D1EA;
 }
 
-.footer {
-    color: #444444 !important;
+.footer {	
+    color: #5D6364 !important;
+}
+
+.footer .area {
+	color: White;
+	background-color: #222222;
 }
 
 .img-responsive {
