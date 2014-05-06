@@ -4,7 +4,9 @@
   "description": "The User Interface for Flinn's Blog",
   "main": "src/app.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "nodemon src/app.js",
+    "preinstall": "npm install -g nodemon"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,6 @@
   },
   "devDependencies": {
     "express": "~4.1.1",
-    "nodemon": "~1.0.17"
+    "swig": "~1.3.2"
   }
 }

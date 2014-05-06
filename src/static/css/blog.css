@@ -1,0 +1,43 @@
+h1 {
+    margin-bottom: 30px !important;
+}
+
+h1 .teal {
+    color: #57D1EA !important;
+}
+
+h4 {
+    color: #DD681B !important;
+}
+
+.header h3 {
+	color: #57D1EA;
+}
+
+.footer {
+    color: #444444 !important;
+}
+
+.img-responsive {
+    display: inline-block !important;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+	background-color: #6D43C3;
+}
+
+a {
+	color: #9C65FA;
+}
+
+a:hover, a:focus { 
+	color: #6D43C3;
+}
+
+body { 
+	/*background:#d2dfe6;*/
+	color: #444;
+	font-family: "Droid Sans",Helvetica,Arial,sans-serif;
+	line-height: 1.5em;
+}
+

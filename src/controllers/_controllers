@@ -1,0 +1,4 @@
+exports.about = require('./about');
+exports.blog = require('./blog');
+exports.contact = require('./contact');
+exports.static = require('./static');

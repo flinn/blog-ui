@@ -1,0 +1,85 @@
+{% extends 'layout.html' %}
+
+{% block title %}{% parent %} > About{% endblock %}
+
+{% block head %}
+  {% parent %}  
+{% endblock %}
+ 
+{% block header %}
+	{% parent %}
+{% endblock %}
+
+{% block content %}
+	<div id="window">
+ 		<div id="toolbar">
+			<div class="top">
+				<div id="lights">
+					<div class="light red">
+						<div class="glyph">×</div>
+						<div class="shine"></div>
+						<div class="glow"></div>
+					</div>				
+					<div class="light yellow">
+						<div class="glyph">-</div>
+						<div class="shine"></div>
+						<div class="glow"></div>
+					</div>
+					<div class="light green">
+						<div class="glyph">+</div>
+						<div class="shine"></div>
+						<div class="glow"></div>
+					</div>
+				</div>
+				<div id="title">
+					<div class="folder">
+						<div class="tab"></div>
+						<div class="body"></div>
+					</div>
+					1. Terminal (node)
+				</div>
+				<div id="bubble">
+					<div class="shine"></div>
+					<div class="glow"></div>
+				</div>
+			</div>
+		</div>
+		<div id="body">
+			<p> Last login: Thu May 24 12:18:16 on ttys001</p>
+			<p>Vistors-MacBook-Pro:~ guest$  <span class="input">WHOIS flinn</span></p>
+			<p>Vistors-MacBook-Pro:~ guest$  <span class="input">Registrant Name: Matthew Claiborne Flinn</span></p>
+			<p>Vistors-MacBook-Pro:~ guest$  <span class="input">Registrant Organization: The Motley Fool</span></p>
+			<p>Vistors-MacBook-Pro:~ guest$  <span class="input">Registrant Title: Software Developer</span></p>
+			<p>Vistors-MacBook-Pro:~ guest$  <span class="input">Registrant City: Arlington, VA</span></p>
+			<p>Vistors-MacBook-Pro:~ guest$  <span class="input">Last update of WHOIS database: 2014-05-06T01:00:00Z</span><p>
+			<p>Vistors-MacBook-Pro:~ guest$  <span class="cursor"></span></p>
+		</div>	
+	</div>
+    <div class="row marketing">
+        <!-- <div class="col-lg-12 text-center">
+        	<div class="text-center">
+          		<img class="img-responsive" src="img/stars.jpg" />
+          	</div>
+        </div> -->
+        <div class="col-lg-12">
+          	<h1 style="text-align: center"><span style="color: #DD681B !important"><b>Hey!</b></span> 
+          	&nbsp;&nbsp;My name's Matt.</h1>
+        </div>
+        <div class="col-lg-6 text-center">
+        	<img class="img-responsive" src="img/me.png" />
+        </div>
+        <div class="col-lg-6">
+          	<h2>Flinn</h2>
+          	<h2>The Motley Fool</h2>
+          	<h2>Bios </h2>  
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer %}
+	{% parent %}	
+{% endblock %}
+
+{% block footer_scripts %}
+	{% parent %}
+{% endblock %}

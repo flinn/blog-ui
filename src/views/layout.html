@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{% block title %}$whois flinn{% endblock %}</title>
+
+		{% block head %}
+			<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+			<link href="../css/bootstrap.min.css" rel="stylesheet">
+			<link href="../css/layout.css" rel="stylesheet">
+			<link href="../css/terminal.css" rel="stylesheet">
+			<link href="../css/icons.css" rel="stylesheet">
+			<link href="../css/blog.css" rel="stylesheet">
+		{% endblock %}
+	</head>
+	<body>
+		<div class="container">
+			{% block header %}
+				<div class="header">
+					<ul class="nav nav-pills pull-right">
+						<li class="active"><a href="/about">About</a></li>
+						<li><a href="/blog">Blog</a></li>
+						<li><a href="/icons">Contact</a></li>
+					</ul>
+					<h1 style="text-align: left"><span class="icon-163 teal"></span>&nbsp;&nbsp;/$<span>whois flinn</span>.com</h1>
+				</div>
+			{% endblock %}
+
+			{% block content %}{% endblock %}
+
+			{% block footer %}
+				<div class="footer text-center">
+        			<div style="color: #5D6364;">Copyright © 2014</div> <div>Matthew Claiborne Flinn</div>
+    			</div>
+			{% endblock %}
+						
+    		{% block footer_scripts %}
+    			<script src="../js/jquery.min.js"></script>
+				<script src="../js/bootstrap.min.js"></script>
+    			<script src="../js/angular.min.js" type="text/javascript"></script>
+    		{% endblock %}
+		</div>
+	</body>
+</html>
