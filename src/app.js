@@ -24,5 +24,5 @@ app.get('/contact', controllers.contact.index);
 app.get('/icons', controllers.static.icons);
 
 //launch server
-console.log("Running whoisflinn.com locally.")
+console.log('Express: Running Server @ localhost.whoisflinn.com');
 app.listen(1337);

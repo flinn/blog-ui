@@ -403,9 +403,9 @@ p {
   font-size:13px;
 }
 
-/*#body p .input {
+#body p .input {
     color: White !important;
-}*/
+}
 
 #content{
     float: left; 
