@@ -6,21 +6,24 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 		<link rel="icon" href="../img/favicon.ico" type="image/x-icon">
-		<title>{% block title %}$whois flinn{% endblock %}</title>
-
+		<title>
+		{% block title %}
+			$whois flinn
+		{% endblock %}
+		</title>
 		{% block head %}
-			<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-			<link href="css/bootstrap.min.css" rel="stylesheet">
-			<link href="css/layout.css" rel="stylesheet">
-			<link href="css/terminalify.css" rel="stylesheet">
-			<link href="css/icons.css" rel="stylesheet">
-			<link href="css/blog.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet'>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/layout.css" rel="stylesheet">
+		<link href="css/terminalify.css" rel="stylesheet">
+		<link href="css/icons.css" rel="stylesheet">
+		<link href="css/blog.css" rel="stylesheet">
 		{% endblock %}
 	</head>
 	<body>
 		<div id="wrap">
 			<div class="container">
-			{% block header %}
+				{% block header %}
 				<div class="header">
 					<div>
 						<ul class="nav nav-pills pull-right">
@@ -31,25 +34,25 @@
 						<h1 style="text-align: left"><img class="banner-img" src="img/logo_clear.PNG" />&nbsp;$&nbsp;<span>whois flinn</span>.com</h1>
 					</div>
 				</div>
-			{% endblock %}
-			
-			{% block content %}{% endblock %}			
-						
-    		{% block footer_scripts %}
-    			<script src="js/jquery.min.js"></script>
+				{% endblock %}
+				
+				{% block content %}{% endblock %}
+				
+				{% block footer_scripts %}
+				<script src="js/jquery.min.js"></script>
 				<script src="js/bootstrap.min.js"></script>
-    			<script src="js/angular.min.js" type="text/javascript"></script>    			
-    		{% endblock %}
-    		<script type="text/javascript">
-				$(document).ready(function() {
-					$('.nav-item-' + {% block nav %}'about'{% endblock %}).first().addClass('active');
-				});
-			</script>
+				<script src="js/angular.min.js" type="text/javascript"></script>
+				{% endblock %}
+				<script type="text/javascript">
+						$(document).ready(function() {
+							$('.nav-item-' + {% block nav %}'about'{% endblock %}).first().addClass('active');
+						});
+				</script>
 			</div>
 		</div>
 		{% block footer %}
 		<div id="footer" class="footer text-center">
-			<div class="container"> 
+			<div class="container">
 				<div class="area">
 					<div class="copyright">Copyright © 2014</div>
 					<div>Matthew Claiborne Flinn</div>

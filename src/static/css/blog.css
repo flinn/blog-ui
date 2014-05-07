@@ -83,6 +83,7 @@ div .copyright {
 
 a {
 	color: #9C65FA;
+	font-weight: bolder;
 }
 
 a:hover, a:focus { 
@@ -96,12 +97,10 @@ body {
 	line-height: 1.5em;
 }
 
-/*.red {
-	background: -webkit-linear-gradient(top, #6D43C3 0%,#B29CDF 100%);
+#body p .input {
+    color: White !important;
 }
-.red .glyph {
-	color: #333;
-}*/
+
 .message-input {
 	min-height: 350px !important;	
 }
@@ -114,4 +113,58 @@ body {
 
 textarea.form-control {
 	height: 100px !important;
+}
+
+.btn-more {
+	background-color: #DD681B;
+	margin-top: 15px;
+	margin-right: 20px;
+	display: inline-block !important;
+	color: White;
+}
+
+.btn-more:hover {
+	background-color: #9C65FA !important;
+	text-align: right;
+}
+
+h1 > span.twitter:hover {
+	color: #0e76a8 !important;
+}
+
+h1 > span.linkedin:hover {
+	color: #4099FF !important;
+}
+
+h1 > span.facebook:hover {
+	color: #3B5998 !important;
+}
+
+h1 > span.github:hover {
+	color: #EA3737 !important;
+}*/
+
+div .jumbotron .connect {
+	padding-bottom: 15px;
+}
+
+.connect div {
+}
+
+.connect h1 {
+	font-size: 60px;
+}
+
+.connect p {
+	margin-top: -20px;
+	font-size: 24px;
+	padding-bottom: 0px;
+}
+
+.jumbotron h2 {
+	color: #91E022 !important;
+}
+
+.input-label {
+	color: #5D6364;
 }

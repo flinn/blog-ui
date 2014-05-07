@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-bottom:0px;
     min-width: 500px;
-    height: 180px;
+    height: 300px;
     /*background: #fff;*/
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.75);
@@ -348,7 +348,7 @@
     font-size:13px;
     float: left;
     width: 100%;
-    min-height:230px;
+    height: 300px;
     background:#5D6364;
     padding:10px;
 }
@@ -458,4 +458,13 @@ p {
 }
 .icon .folder{
     margin:15px 0 0 6px;
+}
+
+@media (min-width: 720px) {
+    #window {
+        height: 180px;
+    }
+    #body {
+        height: 180px;
+    }
 }
